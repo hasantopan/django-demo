@@ -4,6 +4,6 @@ from blog.views.anasayfa import anasayfa
     
 
 urlpatterns = [
-    path('',anasayfa),
-    path('iletisim', iletisim),
+    path('',anasayfa, name='anasayfa'),
+    path('iletisim', iletisim, name ='iletisim'),
 ]
